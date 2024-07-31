@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/core",
+  "version": "1.0.0",
+  ".": {
+    "types": "./lib/hello.d.ts",
+    "node": "./lib/hello.js"
+  },
+  "scripts": {
+    "check-types": "tsc",
+    "compile": "tsc --build ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.2"
+  }
+}

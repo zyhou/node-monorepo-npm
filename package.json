@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/root",
+  "private": true,
+  "scripts": {
+    "compile": "tsc --build tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

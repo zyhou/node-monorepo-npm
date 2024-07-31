@@ -1,0 +1,4 @@
+{
+  // Building this project will build all of the following:
+  "references": [{ "path": "packages/core" }, { "path": "packages/api" }]
+}
