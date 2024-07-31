@@ -1,7 +1,9 @@
-npm run check-types --workspace=@monorepo/core
-npm run check-types --workspace=@monorepo/api
+```bash
+npm run check-types --workspace=@monorepo/core  
+npm run check-types --workspace=@monorepo/api   
 
-npm run build --workspace=@monorepo/api
-npm run start --workspace=@monorepo/api
+npm run build --workspace=@monorepo/api   
+npm run start --workspace=@monorepo/api   
 
-npm run clean --workspace=@monorepo/api
+npm run clean --workspace=@monorepo/api   
+```
