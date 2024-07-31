@@ -1,5 +1,5 @@
 npm run check-types --workspace=@monorepo/core
 npm run check-types --workspace=@monorepo/api
 
-npm run compile --workspace=@monorepo/api
-npm run compile
+npm run build --workspace=@monorepo/api
+npm run start --workspace=@monorepo/api
